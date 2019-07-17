@@ -1,0 +1,156 @@
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.7;
+    color: #fff;
+    background: #000 url("https://cdn.fstoppers.com/styles/full/s3/media/2017/09/11/autumn_food_photography_0.jpg") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .jumbotron h1 {
+    margin-top: 0;
+  }
+  
+  .jumbotron {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .jumbotron .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .jumbotron {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .text-color {
+    color: white;
+  }
+  
+  .pt {
+    padding-top: 75px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .data {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F5F5F5;
+  }
+  
+  a.action_link {
+    text-decoration: none;
+  }
+  
+  .resimg {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  body {
+    background-image: url("https://image.ibb.co/fqkgMw/dust_scratches.png");
+  }
+  
+  .horizontal-center-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rating {
+    float: right;
+    margin-right: 15px;
+  }
+
+  .brand-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.nav-extended{
+    /* background-image: url("https://image.ibb.co/fqkgMw/dust_scratches.png"); */
+    background: #000 url("https://cdn.fstoppers.com/styles/full/s3/media/2017/09/11/autumn_food_photography_0.jpg") center no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.materialtron .img {
+  margin-bottom: 0px;
+  opacity: 0.7;
+  color: #fff;
+  background: #000 url("https://cdn.fstoppers.com/styles/full/s3/media/2017/09/11/autumn_food_photography_0.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.materialtron h1 {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+}
+
+.materialtron {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.materialtron .container {
+  position: relative;
+  z-index: 2;
+}
+
+.footerFixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  color: grey;
+  text-align: center;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: grey;
+  text-align: center;
+}
+
+.poweredZ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.poweredE {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
