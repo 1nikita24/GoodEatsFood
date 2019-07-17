@@ -4,53 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes & Nutrition - Good Eats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/styleRec.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/JSstyle.css">
 </head>
 
 <body>
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Good Eats</a>
+            <a href="home.html" class="brand-logo">Good Eats</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-        <div class="nav-content">
-            <ul class="tabs tabs-transparent">
-                <li class="tab"><a class="active" a href="home.html">Home</a></li>
-                <li class="tab disabled"><a href="recipesnutrition.html">Recipes & Nutrition</a></li>
-                <li class="tab"><a class="active" href="resturant.html">Restaurants</a></li>
-                <li class="tab"><a class="active" href="aboutus.html">About Us</a></li>
-            </ul>
+        <div class="row">
+            <div class="nav-content">
+                <ul id="nav-mobile" class=" tabs tabs-transparent center hide-on-med-and-down tabs">
+                    <li class="tab"><a class="active" href="home.html">Home</a></li>
+                    <li class="tab disabled"><a href="recipesnutrition.html">Recipes & Nutrition</a></li>
+                    <li class="tab"><a class="active" href="restaurant.html">Restaurants</a></li>
+                    <li class="tab"><a class="active" href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col s12">
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">search</i>
+    <ul class="sidenav" id="mobile-demo">
+        <li class="tab"><a class="active" href="home.html">Home</a></li>
+        <li class="tab disabled"><a href="recipesnutrition.html">Recipes & Nutrition</a></li>
+        <li class="tab"><a class="active" href="restaurant.html">Restaurants</a></li>
+        <li class="tab"><a class="active" href="aboutus.html">About Us</a></li>
+    </ul>
 
-                    <input id="recSec" name="input" type="text" value="chicken" style="color: white;">
-                    <button id="search">Search</button>
 
+    <div class="materialtron">
+        <div class="img"></div>
+        <div class="container">
+            <h1>Find the Best Recipes</h1>
+            <div class="col s12 m10">
+                <div class="card-panel ">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">search</i>
+                                    <input id="recSec" name="input" type="text" style="color: black;">
+                                    <label for="name">Search Recipe</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <button class="btn waves-effect waves-light" type="submit" name="action"
+                                        id="search">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <img src="assets/images/edamam2.png" alt="Powered By Zomato" class="poweredZ">
             </div>
         </div>
     </div>
 
 
-    <div class="recipe-views"></div>
 
-    <!-- <footer>
-        <div class="container">
-            &copy;
+    <div class="row">
+
+        <div class="col s4"></div>
+        <div class="col s8">
+            <div class="recipe-views"></div>
         </div>
-    </footer> -->
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <p>Good Eats<i class="material-icons prefix">copyright</i></p>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/JS/edamam.js"></script>
+    <script text="text/javascript">
+
+    </script>
+
 
 </body>
 

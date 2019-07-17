@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Good Eats - Restaurant Finder using Zomato API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/JSstyle.css">
+
+
+</head>
+
+<body>
+
+    <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a href="home.html" class="brand-logo">Good Eats</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+            <div class="row">
+                <div class="nav-content">
+                    <ul id="nav-mobile" class=" tabs tabs-transparent center hide-on-med-and-down tabs">
+                            <li class="tab"><a class="active" href="home.html">Home</a></li>
+                            <li class="tab"><a class="active" href="recipesnutrition.html">Recipes & Nutrition</a></li>
+                            <li class="tab disabled"><a href="restaurant.html">Restaurants</a></li>
+                            <li class="tab"><a class="active" href="aboutus.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <ul class="sidenav" id="mobile-demo">
+            <li class="tab"><a class="active" href="home.html">Home</a></li>
+            <li class="tab"><a class="active" href="recipesnutrition.html">Recipes & Nutrition</a></li>
+            <li class="tab disabled"><a href="restaurant.html">Restaurants</a></li>
+            <li class="tab"><a class="active" href="aboutus.html">About Us</a></li>
+        </ul>
+
+    <div class="jumbotron jumbotron-billboard text-center">
+        <div class="img"></div>
+        <div class="container pt">
+            <div class="mt-5 text-color">
+                <h1>Find the best Restaurants</h1>
+            </div>
+            <div class="row mx-auto well col-lg-12 mt-5">
+                <div class="col-xs-4 pr-0">
+                    <select id="select_id" class="form-control form-control-lg">
+					<option value="Select City" hidden>Select City</option>
+				
+                    <option value="280">New York</option>
+                    <option value="3959">Jersey City, NJ</option>
+                    <option value="3947">Union City, NJ</option>
+                    <option value="3783">Montclair, NJ</option>
+				</select>
+                </div>
+                <div class="col-xs-6 pl-0 pr-0">
+                    <input id="getText" type="text" class="form-control" placeholder="Search for Restaurant">
+                </div>
+                <button id="getMessage" class="btn btn-success col-xs-2">Search</button>
+            </div>
+            <img src="assets/images/zomato2.png" alt="Powered By Zomato" class="poweredZ">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <div class="message col-md-12"></div>
+        </div>
+    </div>
+    <hr>
+
+    <footer>
+            <div class="footer">
+                    <p>Good Eats<i class="material-icons prefix">copyright</i></p>
+                  </div>
+            </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+
+
+    <script src="assets/JS/script.js"></script>
+
+
+
+
+</body>
+
+</html>
